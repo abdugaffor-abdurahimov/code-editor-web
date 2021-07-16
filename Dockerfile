@@ -11,4 +11,4 @@ RUN yarn --silent
 
 COPY . ./
 
-CMD ["yarn build"]
+CMD ["yarn dev"]
