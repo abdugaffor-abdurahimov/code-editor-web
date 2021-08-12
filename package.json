@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack serve --mode development",
     "build": "webpack --mode production",
-    "format": "yarn prettier --write ."
+    "format": "yarn prettier --write .",
+    "lint": "eslint --ext .jsx --ext .js src/ --quiet"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,8 @@
     "@types/react-dom": "^17.0.9",
     "babel-loader": "^8.2.2",
     "css-loader": "^6.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.3.2",
     "mini-css-extract-plugin": "^2.1.0",
